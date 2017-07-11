@@ -1,0 +1,26 @@
+body {
+  background: url('/images/grad.png');
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.scrolls {
+  color: white;
+  font-size: 40pt;
+  z-index: 999;
+}
+.gradient {
+  background-image: linear-gradient(to bottom, transparent, white);
+  height: 400px !important;
+  z-index: 998;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+}
