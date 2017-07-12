@@ -78,3 +78,18 @@ body {
 a {
   color: #aee100 !important;
 }
+
+@media (max-width: 600px) {
+  .top-space {
+    padding-top: 8em;
+  }
+  .scrolls {
+    padding: 7%;
+  }
+  .tag {
+    font-size: 10pt;
+  }
+  .gradient {
+    height: 135px !important;
+  }
+}
