@@ -8,7 +8,14 @@ body {
   height: 100%;
   width: 100%;
   z-index: 1;
+  /*font-family: helv, sans-serif;*/
 }
+/*
+@font-face {
+    font-family: helf;
+    src: url(images/helv.ttf);
+    font-weight:400;
+}*/
 
 .content h1, .content h2, .content h3 {
   color: white !important;
@@ -27,7 +34,7 @@ body {
 }
 .scrolls {
   color: white;
-  font-size: 40pt;
+  font-size: 14pt;
   z-index: 998;
 }
 .gradient {
@@ -52,7 +59,7 @@ body {
 
 .tag {
   color: black;
-  font-size: 24pt;
+  font-size: 18pt;
 }
 
 .is-custom {
@@ -65,7 +72,7 @@ body {
 }
 
 .dog {
-  font-size: 60pt;
+  font-size: 30pt;
 }
 
 a {
